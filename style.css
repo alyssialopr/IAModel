@@ -5,33 +5,34 @@
     font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: #ffcbf4;
+}
+
 .container {
-    border-radius: 10px;
-    background-color: #f5a5d5;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
     padding: 20px;
-    max-width: 600px;
-    margin: 50px auto;
-    text-align: center;
-    align-items: center;
+    border-radius: 30px;
+    background-color: #fda3e945;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
 
 .button{
-    background-color: #4CAF50;
-    border: none;
+    background-color: #ff69b4;
     color: white;
+    border: none;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 5px;
+    border-radius: 20px;
     cursor: pointer;
-    border-radius: 5px;
-}
-
-.canvas{
-    border: 2px solid #000;
-    border-radius: 10px;
-    background-color: #fff;
-    cursor: crosshair;
+    font-size: 16px;
 }
